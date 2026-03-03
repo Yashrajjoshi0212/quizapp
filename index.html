@@ -2,46 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QUIZ GAME</title>
+    <title>Interactive Quiz</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
+<div class="container">
+    <h1>Quick Quiz</h1>
 
-        <!-- Start Screen -->
-        <div class="screen active" id="start-screen">
-            <h1>QUIZ Time!</h1>
-            <p>
-                Test your knowledge with our fun and interactive quiz game!
-                Challenge yourself with a variety of questions across different categories.
-                Whether you're a trivia buff or just looking for some entertainment,
-                our quiz game is the perfect way to have fun and learn something new.
-                Get ready to put your knowledge to the test!
-            </p>
-            <button id="start-btn">Start Quiz</button>
-        </div>
-
-        <!-- Quiz Section -->
-        <div class="quiz-header">
-            <h2 id="question-text">Question goes here</h2>
-
-            <div class="quiz-info">
-                <p>
-                    Your score: 
-                    <span id="final-score">0</span> 
-                    out of 
-                    <span id="max-score">0</span>
-                </p>
-
-                <div id="result-message">Good job!</div>
-            </div>
-
-            <button id="reset-btn">Restart Quiz</button>
-        </div>
-
+    <div id="quiz-box">
+        <p id="question"></p>
+        <ul id="answer-list"></ul>
     </div>
 
+    <div class="controls">
+        <span id="score">Score: 0</span>
+        <button id="next">Next</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
