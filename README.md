@@ -22,4 +22,3 @@ HTML5 – Structure of the application
 
 CSS3 – Styling and responsive design
 
-JavaScript (Vanilla JS) – Quiz logic and interactivity
